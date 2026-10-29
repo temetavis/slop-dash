@@ -3,7 +3,7 @@ class_name TextureFactory
 
 
 static func make_texture(draw_fn: Callable) -> ImageTexture:
-	var img := Image.create(32, 32, false, Image.FORMAT_RGBA8)
+	var img := Image.create_empty(32, 32, false, Image.FORMAT_RGBA8)
 	for y in range(32):
 		for x in range(32):
 			var rel := Vector2(x / 31.0, y / 31.0)

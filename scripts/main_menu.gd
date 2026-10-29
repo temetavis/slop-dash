@@ -10,6 +10,7 @@ const TITLE_WOBBLE := 2.0
 @onready var high_label: Label = $HighScoreLabel
 
 func _ready() -> void:
+	print("[SlopDash] main_menu _ready")
 	var vp_size: Vector2 = get_viewport_rect().size
 	title.position = Vector2(vp_size.x / 2 - 140, 140)
 	subtitle.position = Vector2(vp_size.x / 2 - 180, 220)
