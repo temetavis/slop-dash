@@ -1,6 +1,6 @@
 # SlopDash
 
-A [Boulder Dash](https://en.wikipedia.org/wiki/Boulder_Dash)-style cave-digging game built with **Godot 4.2+**.
+A [Boulder Dash](https://en.wikipedia.org/wiki/Boulder_Dash)-style cave-digging game built with **Godot 4.7+**.
 
 ## How to play
 
@@ -23,7 +23,7 @@ Dig through dirt, collect the required number of gems to open the exit, and reac
 
 ## Running
 
-Open the project in Godot 4.2 or newer and press F5, or run headless:
+Open the project in Godot 4.7 or newer and press F5, or run headless:
 
 ```bash
 godot --path . --import   # once, to generate .godot/
