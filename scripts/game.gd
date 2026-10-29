@@ -58,7 +58,9 @@ var tex_player: ImageTexture
 
 
 func _ready() -> void:
+	print("[SlopDash] game _ready")
 	_build_textures()
+	print("[SlopDash] textures built")
 	_load_level(GameManager.current_level)
 
 
@@ -111,6 +113,7 @@ func _convert_map(char_grid: Array) -> Array:
 
 
 func _load_level(index: int) -> void:
+	print("[SlopDash] loading level ", index)
 	var data: Dictionary = LevelData.get_level(index)
 	if data.is_empty():
 		index = 0
